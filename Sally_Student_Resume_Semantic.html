@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<meta name="author" content="Sally Student" />
+		<title>Sally Student — Resume</title>
+		<link
+			href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway"
+			rel="stylesheet"
+		/>
+		<style>
+		body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+}
+
+h1 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 36px;
+}
+
+h2 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 24px;
+}
+
+a[href^='mailto']::before {
+	content: '📧 ';
+}
+
+a[href^='tel']::before {
+	content: '📞 ';
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+nav li {
+	float: left;
+}
+
+nav li a {
+	display: block;
+	color: black;
+	background-color: lightgray;
+	text-align: center;
+	padding: 20px;
+	text-decoration: none;
+}
+
+nav li a:hover:not(.active) {
+	background-color: #555;
+	color: white;
+}
+
+nav li a.active {
+	background-color: darkblue;
+	color: white;
+}
+</style>
+	</head>
+	<body>
+		<header>
+			<nav>
+				<ul>
+					<li>
+						<a href="index.html">About Me (React)</a>
+					</li>
+					<li>
+						<a href="Sally_Student_Resume_Semantic.html" class="active">Not React</a>
+					</li>
+				</ul>
+			</nav>
+
+			<h1>Sally Student</h1>
+			<address>
+				<a href="mailto:sally@sally.com" target="_blank">sally@sally.com</a>
+				<br />
+				<a href="tel:1-111-222-3344">1-111-222-3344</a>
+				<br />
+				<a href="http://www.sally.com" target="_blank">http://www.sally.com</a>
+				<br />
+				<a href="https://github.com/sally" target="_blank">github.com/sally</a>
+			</address>
+			<br />
+			<img
+				src="https://ia.media-imdb.com/images/M/MV5BMTY5NzE3NzU3MF5BMl5BanBnXkFtZTgwMjg0NTQ5MDE@._V1_UX214_CR0,0,214,317_AL_.jpg"
+				alt="Student Sally Picture"
+			/>
+		</header>
+
+		<main>
+			<section id="summary">
+				<header><h2>Summary</h2></header>
+				<p>
+					Background summary...
+				</p>
+			</section>
+
+			<section id="education">
+				<header><h2>Education</h2></header>
+				<ul>
+					<li>Cornell University, B.S 1992</li>
+				</ul>
+			</section>
+
+			<section id="skills">
+				<header>
+					<h2>Technical Skills</h2>
+				</header>
+				<ul>
+					<li>Languages: Lasso, JavaScript, PHP</li>
+					<li>Database: FileMaker, PostgreSQL, MongoDB, MySQL</li>
+					<li>
+						Frameworks: ReactJS, AngularJS
+					</li>
+					<li>Tools: Git</li>
+				</ul>
+			</section>
+
+			<section id="experience">
+				<header>
+					<h2>
+						Work Experience
+						<a href="https://sally.com/work/" target="_blank">[more]</a>
+					</h2>
+				</header>
+
+				<details open>
+					<summary>XXX Company (<a href="http://xxx.com/" target="_blank"
+							>http://xxx.com</a
+						>), Junior Developer 2014 - 2015
+					</summary>
+					<p>
+						XXX description ipsum dolor sit amet ...
+					</p>
+					<ul>
+						<li>
+							Developed ...
+						</li>
+						<li>
+							Designed ...
+						</li>
+						<li>
+							Deployed...
+						</li>
+					</ul>
+				</details>
+
+				<details open>
+					<summary>ZZZ Company (<a href="http://zzz.com" target="_blank"
+							>http://zzz.com</a
+						>), Senior 2015 - 2017
+					</summary>
+					<p>
+						ZZZ description ipsum dolor sit amet ...
+					</p>
+					<ul>
+						<li>
+							Developed ...
+						</li>
+						<li>
+							Designed ...
+						</li>
+						<li>
+							Deployed...
+						</li>
+					</ul>
+				</details>
+			</section>
+
+			<section id="publications">
+				<h2>
+					Selected Publications
+					<a href="https://sally.com/publications" target="_blank">[more]</a>
+				</h2>
+				<ul>
+					<li>
+						<a href="https://sally.com/publicationName" target="_blank"
+							>Publication Name</a
+						>, April 2019
+					</li>
+				</ul>
+			</section>
+
+			<section id="articles">
+				<h2>
+					Selected Articles
+					<a href="https://sally.com/articles" target="_blank">[more]</a>
+				</h2>
+				<ul>
+					<li>
+						<a href="https://sally.com/articleName" target="_blank"
+							>Article Name</a
+						>, April 2019
+					</li>
+				</ul>
+			</section>
+		</main>
+
+		<footer>
+			&copy; 2019 Sally Student
+		</footer>
+	</body>
+</html>

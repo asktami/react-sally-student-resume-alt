@@ -1,0 +1,109 @@
+* {
+   box-sizing: border-box;
+			}
+			
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+}
+
+h1 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 36px;
+}
+
+h2 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 24px;
+}
+
+a[href^='mailto']::before {
+	content: '📧 ';
+}
+
+a[href^='tel']::before {
+	content: '📞 ';
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+nav li {
+	float: left;
+}
+
+nav li a {
+	display: block;
+	color: black;
+	background-color: lightgray;
+	text-align: center;
+	padding: 20px;
+	text-decoration: none;
+}
+
+nav li a:hover:not(.active) {
+	background-color: #555;
+	color: white;
+}
+
+nav li a.active {
+	background-color: darkblue;
+	color: white;
+}
+</style><style>
+		body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+}
+
+h1 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 36px;
+}
+
+h2 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 24px;
+}
+
+a[href^='mailto']::before {
+	content: '📧 ';
+}
+
+a[href^='tel']::before {
+	content: '📞 ';
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+nav li {
+	float: left;
+}
+
+nav li a {
+	display: block;
+	color: black;
+	background-color: lightgray;
+	text-align: center;
+	padding: 20px;
+	text-decoration: none;
+}
+
+nav li a:hover:not(.active) {
+	background-color: #555;
+	color: white;
+}
+
+nav li a.active {
+	background-color: darkblue;
+	color: white;
+}
