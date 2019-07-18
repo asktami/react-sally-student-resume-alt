@@ -19,9 +19,9 @@ function Top(props) {
 
 				<h1>{props.name}</h1>
 				<address>
-					<a href={"mailto:" + this.props.email} target='_blank'>{props.email}</a>
+					<a href={"mailto:" + props.email} target='_blank'>{props.email}</a>
 					<br />
-					<a href={"tel:" + this.props.phone}>{props.phone}</a>
+					<a href={"tel:" + props.phone}>{props.phone}</a>
 					<br />
 					<a href={props.url} target='_blank'>{props.url}</a>
 					<br />
@@ -40,15 +40,15 @@ function App(props) {
 	return (
 		// alternative to START of encompassing DIV is <>
 		// called a React fragment
+		// pass to the Top the needed properties
 		<div className='container'>
 		
-		// pass to the Top the needed properties
 			<Top
 			name= {props.name}	// gets name from App properties
 			email='sally@sally.com'
 			phone='1-111-222-3344'
 			url='http://www.sally.com'
-			github='github.com/sally'
+			github='https://github.com/asktami'
 		 />
 
 			<main>
